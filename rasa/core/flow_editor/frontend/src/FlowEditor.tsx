@@ -35,7 +35,6 @@ interface FlowEditorProps {
 }
 
 export const FlowEditor: React.FC<FlowEditorProps> = ({
-  flowId,
   initialNodes = [],
   initialEdges = [],
   onSave,

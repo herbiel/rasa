@@ -1,7 +1,7 @@
 import React from 'react';
 import { Handle, Position, NodeProps } from 'reactflow';
 
-export const EndNode: React.FC<NodeProps> = ({ data, isConnectable }) => {
+export const EndNode: React.FC<NodeProps> = ({ isConnectable }) => {
   return (
     <div
       style={{
